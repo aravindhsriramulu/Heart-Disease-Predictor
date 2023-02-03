@@ -4,5 +4,4 @@ numpy
 seaborn
 keras
 sklearn
-plotlyexpress
 tensorflow
