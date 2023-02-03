@@ -6,4 +6,3 @@ keras
 sklearn
 plotlyexpress
 tensorflow
-streamlit
