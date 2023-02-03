@@ -1,4 +1,4 @@
-matplotib (version: 3.6.3)
+matplotib 
 pandas
 numpy
 seaborn
