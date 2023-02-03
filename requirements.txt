@@ -5,7 +5,5 @@ seaborn
 keras
 sklearn
 plotlyexpress
-pandas plotting
-plotly figure factory
 tensorflow
 streamlit
