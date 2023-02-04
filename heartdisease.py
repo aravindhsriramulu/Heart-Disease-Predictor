@@ -39,7 +39,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-import sklearn
 import matplotlib
 import keras
 
@@ -51,7 +50,7 @@ import keras
 
 
 # read the csv
-heart = pd.read_csv(r'C:\Aravindh/heart.csv')
+heart = pd.read_csv('heart.csv')
 
 
 # In[6]:
