@@ -38,12 +38,9 @@ The dataset contains the following features:
 """
 
 import matplotlib.pyplot as plt
-import plotly.figure_factory as ff
-from pandas.plotting import scatter_matrix
 import seaborn as sns
 import pandas as pd
 import numpy as np
-import sklearn
 import matplotlib
 import keras
 import plotly.express as px
@@ -52,12 +49,7 @@ import plotly.express as px
 # 1. DATA VISUALIZATION (EDA)
 """
 
-from google.colab import files
-import io
- 
-uploaded = files.upload()
-
-heart = pd.read_csv(io.BytesIO(uploaded['heart.csv']))
+heart = pd.read_csv('heart.csv')
 
 # print the shape of the DataFrame, so we can see how many examples we have
 print( 'Shape of DataFrame: {}'.format(heart.shape))
