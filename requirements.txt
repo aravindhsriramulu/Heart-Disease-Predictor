@@ -4,3 +4,4 @@ seaborn
 keras
 sklearn
 tensorflow
+streamlit
