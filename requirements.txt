@@ -4,5 +4,3 @@ seaborn
 keras
 sklearn
 tensorflow
-streamlit
-model selection
