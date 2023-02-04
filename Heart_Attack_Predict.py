@@ -11,7 +11,7 @@ import pandas as pd
 import pickle
 
 # Load the model
-heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+model = tf.keras.models.load_model("my_model2.hdf5")
 
 # Define the prediction function
 def predict_heart_disease(age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal):
