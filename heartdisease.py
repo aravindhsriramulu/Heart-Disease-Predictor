@@ -36,21 +36,12 @@
 
 
 import matplotlib.pyplot as plt
-import plotly.figure_factory as ff
-from pandas.plotting import scatter_matrix
 import seaborn as sns
 import pandas as pd
 import numpy as np
 import sklearn
 import matplotlib
 import keras
-import plotly.express as px
-
-
-# In[4]:
-
-
-pip -V
 
 
 # <a class="anchor" id="1."></a> 
