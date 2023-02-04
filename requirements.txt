@@ -1,4 +1,3 @@
-matplotib 
 pandas
 numpy
 seaborn
