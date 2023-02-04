@@ -11,7 +11,7 @@ import pandas as pd
 import pickle
 
 # Load the model
-heart_disease_model = pickle.load(open('C:/Users/conte/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
 # Define the prediction function
 def predict_heart_disease(age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal):
