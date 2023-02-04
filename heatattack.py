@@ -43,12 +43,6 @@ import matplotlib
 import keras
 
 
-# In[87]:
-
-
-pip -V
-
-
 # <a class="anchor" id="1."></a> 
 # # 1. DATA VISUALIZATION (EDA)
 
