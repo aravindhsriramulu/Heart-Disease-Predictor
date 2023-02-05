@@ -12,7 +12,7 @@ def load_html(file_path):
         st.write(html_content, unsafe_allow_html=True)
 
 if __name__ == '__main__':
-    load_html(file_path)
+    load_html(Heart_Disease_Dashboard)
 
 
 # In[ ]:
